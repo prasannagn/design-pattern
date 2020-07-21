@@ -1,8 +1,4 @@
-package pattern.observer.test;
-
-import pattern.observer.impl.CurrentConditionDisplay;
-import pattern.observer.impl.ForcastDisplay;
-import pattern.observer.impl.WeatherData;
+package pattern.observer;
 
 public class Main {
 	public static void main(String[] args) {
@@ -13,4 +9,16 @@ public class Main {
 		weatherData.setMeasuremets(25, 52, 67);
 		weatherData.setMeasuremets(22, 49, 50);
 	}
+}
+
+interface Observer {
+	void update();
+}
+
+interface Subject {
+	void registerObserver(Observer o);
+
+	void removeObserver(Observer o);
+
+	void notifyObservers();
 }

@@ -1,7 +1,4 @@
-package pattern.observer.impl;
-
-import pattern.observer.intr.Observer;
-import pattern.observer.intr.Subject;
+package pattern.observer;
 
 public class ForcastDisplay implements Observer {
 

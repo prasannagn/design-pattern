@@ -1,10 +1,7 @@
-package pattern.observer.impl;
+package pattern.observer;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import pattern.observer.intr.Observer;
-import pattern.observer.intr.Subject;
 
 public class WeatherData implements Subject {
 
