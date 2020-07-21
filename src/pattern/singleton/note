@@ -1,0 +1,2 @@
+Singleton pattern ensures a class has only one instance, and provides a global point of access.
+Ensures one and only object is create

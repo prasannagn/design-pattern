@@ -1,0 +1,7 @@
+Use sharing to support large numbers of fine-grained objects efficiently. 
+Flyweight is all about memory and sharing and it is achieved by segregating object properties into two types intrinsic and extrinsic
+
+
+  Need to create large number of objects of similar nature 
+  Because of the large number when memory cost is a constraint
+  When most of the object attributes can be made external and shared

@@ -1,0 +1,5 @@
+Composite pattern allows you to compose objects into tree structures to represent part-whole hierarchies. 
+Composite lets client to treat individual objects and composition of objects uniformly.
+
+ 
+Client treats collection of objects and individual objects uniformly

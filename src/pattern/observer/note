@@ -1,0 +1,3 @@
+Observer Pattern defines a one-to-many dependency between a set of objects so that one object changes state, all other depending objects are notified and updated automatically.
+
+Allows objects to be notified when state changes

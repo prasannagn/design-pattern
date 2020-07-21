@@ -1,0 +1,2 @@
+Command pattern encapsulate a request as an object thereby letting you parameterize other objects with deferent requests, 
+queue or log requests, and support undoable options.

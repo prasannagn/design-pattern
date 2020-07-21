@@ -1,0 +1,6 @@
+generate stub
+"\Program Files\Java\jdk1.6.0_14\bin\rmic" "pattern.proxy.server.MyRemoteImpl"
+
+run rmi registry
+rmiregistry.exe
+
